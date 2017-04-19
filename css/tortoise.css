@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* -- Global -- */
+html,body,div{ margin:10; padding:10; }
+body{ font-size:13px; font-family:"宋体", Arial; line-height:21px; }
+
+/* -- #container -- */
+#container{ background-color:#95BA46; padding-bottom:20px;
+ background-image:url(../images/container_bg.gif); background-position:bottom; background-repeat:repeat-x; }
+
+/* -- #header -- */
+#header_line{ background-image:url(../images/header_bg.gif); background-repeat:repeat-x; }
+#header{ height:59px; width:740px; margin:auto; }
+#header h1{ margin:0; color:#95BA46; font-size:30px; padding:20px 0 0 0; float:left; }
+#header ul{ list-style:none; float:right; }
+#header ul li{ display:inline; }/*没有明白意思*/
+#header ul li a{ padding:17px 5px; color:#FFF; font-size:17px; text-decoration:none; }
+#header ul li a:hover,#header ul li a:active{ background-color:#5f6e42;  }
+
+/* 上句的hover、active啥意思-- */
+#body{ background-color:#FFF; padding:15px; width:710px; margin:auto; }
+#body:after { content: "."; display: block; clear: both; height: 0; visibility: hidden }	
+/* -- 啥意思 -- */
+#banner{ width:708px; height:182px; border:solid 1px #333;
+ background-image:url(../images/aaa.gif); background-size: cover; }
+#site_discription{ margin:70px 0 0 30px; font-size:14px; color:blue;}
+
+/* -- #main -- */
+#main{ width:430px; float:left; padding-right:20px; }
+.log h3{ border-bottom:solid 1px #95BA46; }
+.log .log_descr{ text-align:right; color:#888; }
+
+/* -- #sidebar -- */
+#sidebar{ width:240px; float:right; padding-left:20px; }
+#sidebar h2{ border-bottom:solid 1px #95BA46; }
+
+/* -- #footer -- */
+#footer{ width:738px; font-size:14px; color:#FFF; background-color:#45444D; 
+   text-align:center; margin:auto; border:#fff solid 1px; padding:2px 0; }
+#footer a{ color:#FFF; background-color:green; text-decoration:none; }
